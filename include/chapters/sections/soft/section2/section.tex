@@ -1,0 +1,37 @@
+\section{Criando um servidor remoto de versão}
+
+\subsection{Criando o server git}
+Primeiramente, tenha um server remoto. \\
+Em seguida: \\
+
+\begin{enumerate}
+\item Adicione os usuarios que iram trabalhar.\\
+\$ sudo adduser robota \\
+\item Crie um grupo de desenvolvimento. \\
+\$ sudo addgroup developers \\
+\item Edite o grupo para adicionar os desenvolvedores. \\
+\$ sudo nano /etc/group \\
+Encontre a linha que contenha: "developers:XXXX". Adicionando os usuarios "developers:XXXX:robota,usuario2"
+\item Agora, crie uma pasta para o projeto, de prefer\^encia na raiz da maquina. \\
+\$ sudo mkdir git  \\
+\item Crie a pasta do projeto dentro da do git (/git/projeto.git). \\
+\$ sudo mkdir projeto.git \\
+\item Mude as permiss\~oes para o grupo. \\
+\$ sudo chgrp developers projeto.git \\
+\item Mude as permiss\~oes para escrita e leitura. \\
+\$ sudo chmod g+rws projeto.git \\
+\item Agora iniciamos o reposit\'orio com pro git, dentro da pasta do projeto.\\
+\$ sudo git init --bare --shared \\
+\end{enumerate}
+
+\subsection{Configurando o pc do desenvolvedor}
+Primeiramente, tenha acesso ao pc do desenvolvedor. \\
+
+\begin{enumerate}
+\item Crie uma pasta para o git.\\
+\$ mkdir git
+\item Adicionando o master. \\
+\$ git remote add origin robota@host:/git/projeto
+\end{enumerate}
+
+Pronto, agora temos um server funcionando e um pc configurado para le utilizar.

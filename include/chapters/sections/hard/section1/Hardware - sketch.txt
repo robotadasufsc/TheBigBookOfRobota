@@ -1,0 +1,27 @@
+BASICO:
+
+	Elementos básicos:
+
+		- Resistor: O elemento mais utilizado na confecção de circuitos eletrônicos, é um componente chave pois permite limitar a corrente elétrica que passa por elementos em série, e possibilita a aplicação de uma tensão desejada através do conceito de divisor de tensão.
+		Por definição é um componente que oferece uma oposição à passagem de corrente elétrica, dissipando energia através do efeito Joule.
+		
+		- Capacitor: 
+	
+		- Diodo:
+
+		- Transistor:
+
+
+SOFTWARES: 
+  A utilização de softwares específicos para eletrônica são essenciais atualmente, possibilitando a simulação, documentação e confecção de circuitos eletrônicos.
+  Abaixo segue uma descrição dos principais softwares utilizados:
+
+	- Eagle:
+	
+	- Proteus:
+	
+	- Altium:
+
+
+Eletrônica aplicada à robótica:
+

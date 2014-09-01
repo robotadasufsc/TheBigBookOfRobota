@@ -1,0 +1,85 @@
+\section{Controle de vers\~ao}
+\subsection{Git}
+O GIT é um sistema de controle de versão, de código aberto, tendo como um dos desenvolvedores o conhecido Linus Torvalds.
+\begin{quote}
+Eu sou um egoísta degenerado, batizo todos os meus projetos com meu nome. Primeiro Linux, agora Git.
+— Linus Torvalds
+\end{quote}
+Lembrando que Git é um gíria para cabeça dura, contudo podendo ter outros sinonimos como: Global information tracker, ou, quando ele trava, "Goddamn idiotic truckload of sh*t".
+
+\begin{center}
+\center
+\includegraphics[width=6cm]{./include/chapters/sections/soft/section1/img/git.png}
+\label{git wiki}
+\end{center}
+
+Uma ferramente de controle de versão possui uma série de periféricos para possibilitar sua utilização, nesta parte iremos introduzir algumas delas.
+
+\begin{enumerate}
+\item Criando \\
+Para criar um repositório local: git init\\
+Para clonar um repositório remoto: git clone  /caminho/para/o/repositório\\
+Para clonar um repositório remoto: git clone username@host:/caminho/para/o/repositório ou git clone\\ https://github.com/username/repositório.git\\
+
+\item Adicionando e removendo \\
+Para adicionar arquivos no repositório a ser verificado: git add nome\_do\_arquivo
+Para adicionar tudo ao repositório: git add *
+Para remover um arquivo do repositório: git rm nome\_do\_arquivo
+
+\item Commit (comentar as mudanças) e sincronizar \\
+Commitar mudanças: git commit -m "mensagem de commit"\\
+Atualizar o seu repositório: git pull\\
+Atualizar o respositório remoto: git push\\
+Conectar repositório local com um remoto: git remote add origin server\\
+
+\item Branches (ramos no repositório) \\
+Criar um novo branche: git checkout -b nome\_do\_branch\\
+Trocar do branch para o master: git checkout master\\
+Deletar branch: git branch -d nome\_do\_branch\\
+Dar um push do branch para o repositório local: git push origin branch\\
+
+\item Merges (incorporar mudanças) \\
+Merge as mudanças de algum branch: git merge nome\_do\_branch\\
+Vê as mudanças entre dois branches: git diff branch\_fonte branch\_alvo\\
+
+\end{enumerate}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=11cm]{./include/chapters/sections/soft/section1/img/filestatus.png}
+\caption{Ciclo GIT}
+\label{CicloVidaGit}
+\end{figure}
+
+A figura \ref{CicloVidaGit}, mostra numa vis\~ao muito simplificada a utiliza\c{c}\~ao do git. \\
+Tendo como in\'icio, o arquivo n\~ao rastreado, ``untracked", temos que iniciar o mesmo no reposit\'orio, para isso utilizando o comando: \\ \$ git add nome\_do\_arquivo, \$ git add * ou at\'e mesmo \$ git add $--$all. \\ \\
+Tendo em m\~aos o arquivo modificado, organize e comente o mesmo para o commit, fazendo assim uma atualiza\c{c}\~ao do arquivo para o gerenciador de vers\~ao, desta forma o arquivo ira constar como atualizado na sua maquina para ultima vers\~ao, desta forma, basta utilizar o seguinte comando:\\ \$ git commit -m ``mensagem", \$ git commit e escrever a mensagem em seguida.\\ \\
+Fazendo tudo isso na sua maquina e tendo o arquivo como n\~ao modificado, ``unmodified", est\'a na de atualizar o servidor remoto, utilizando desta forma o comando: \\
+\$ git push origin master \\ \\
+
+
+\subsection{Primeiros passos}
+Criando um arquivo README.
+\begin{enumerate}
+\item Criando uma pasta.
+\$ mkdir $\sim$/Hellow-World \\
+Cria um diret\'orio para seu projeto ``Hello-World".
+\item Entrando na pasta.
+\$ cd $\sim$/Hellow-World \\
+Muda o diret\'orio onde o terminal esta localizado.
+\item Iniciando arquivos do Git necessarios.
+\$ git init \\
+Inicializa um diret\'orio Git vazio em /users/you/Hello-World/.git/
+\item Criando o arquivo README
+\$ touch REAME \\
+Cria o arquivo chamado``README" no seu diret\'orio Hello-World
+\end{enumerate}
+
+Commit seu arquivo README. \\
+
+
+
+
+
+
+

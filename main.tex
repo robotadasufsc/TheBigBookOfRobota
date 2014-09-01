@@ -1,0 +1,79 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%	DONT CHANGE !
+%----------------------------------------------------------------------------------------
+\documentclass{report}
+\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}} % Generic publisher logo
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{varwidth}
+\usepackage{graphicx}
+\usepackage{mathtools}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\newcommand*{\titleGP}{\begingroup % Create the command for including the title page in the document
+\centering						 % Center all text
+\vspace*{\baselineskip} 			 % White space at the top of the page
+
+\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} 	% Thick horizontal line
+\rule{\textwidth}{0.4pt}\\[\baselineskip] 					% Thin horizontal line
+
+{\LARGE THE BIG BOOK\\ OF \\[0.3\baselineskip] ROBOTA}\\[0.2\baselineskip] % Title
+
+\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} % Thin horizontal line
+\rule{\textwidth}{1.6pt}\\[\baselineskip] 					% Thick horizontal line
+
+\scshape % Small caps
+A number of fascinating and life-changing works \\ 		% Tagline(s) or further description
+presented  in a clear and useable way \\[\baselineskip] 	% Tagline(s) or further description
+Florian\'opolis,  2013--inf \par 							% Location and year
+\vspace*{2\baselineskip} 									% Whitespace between location/year and editors
+
+Edited by \\[\baselineskip]
+{\Large Felippe Schmoeller \\ Martin Vincent \\ Patrick J.P \\ \par} 		% Editor list
+{\itshape The University of \\ Santa Catarina\par} 	% Editor affiliation
+
+\vfill % Whitespace between editor names and publisher logo
+
+\plogo \\[0.3\baselineskip] 			% Publisher logo
+{\scshape 2013} \\[0.3\baselineskip]  % Year published
+{\large ROBOTA}\par \endgroup}            % Publisher
+
+
+\newcommand{\blankpage}{
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+}
+%----------------------------------------------------------------------------------------
+%	DOCUMENT
+%----------------------------------------------------------------------------------------
+
+\begin{document} 
+
+\titleGP % This command includes the title page
+
+\newpage
+
+\tableofcontents  % This command put the sections and subsections
+
+%----------------------------------------------------------------------------------------
+%   LE MASTER INCLUDE
+%----------------------------------------------------------------------------------------
+
+\include{./include/allIncludes}
+% BIBLIOGRAFIA
+\bibliography{bibliography.bib}
+
+\end{document}

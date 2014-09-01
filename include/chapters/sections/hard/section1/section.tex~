@@ -1,0 +1,28 @@
+\section{Introduç\~ao ao livro}
+Esse livro tem como objetivo armazenar todo o conhecimento do grupo ROBOTA,
+ajudando novos membros e colaborando com o ambiente acadêmico.
+
+\subsection{Sobre THE BIG BOOK OF ROBOTA}
+Esse livro teve inicio no fatídico dia (04/11/2013) para maior organizaç\~ao do grupo,
+unir toda a documentaç\~ao e evitar o retrabalho.
+
+Este livro esta separado em 5 capítulos:
+
+\begin{enumerate}
+\item Introdução
+\item Software
+\item Hardware
+\item Mecânica
+\item Gerencial
+\end{enumerate}
+
+Cada capitulo possui uma pasta e cada pasta possui outra para as seções, como mostrado na fugira \ref{estrutura}.
+
+\begin{figure}[h]
+\center
+\includegraphics[width=6cm]{./include/chapters/sections/intro/section1/imgs/estrutura.png}
+\label{estrutura}
+\caption{Estrutura inicial de pastas}
+\end{figure}
+
+

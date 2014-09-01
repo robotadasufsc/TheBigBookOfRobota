@@ -1,0 +1,49 @@
+\select@language {portuguese}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introdu\IeC {\c c}\~ao ao livro.}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Sobre THE BIG BOOK OF ROBOTA.}{4}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Estrura de pastas.}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Adicionando sua contribui\IeC {\c c}\IeC {\~a}o.}{5}{subsection.1.2.1}
+\contentsline {chapter}{\numberline {2}Software}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Controle de vers\~ao}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Git}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Primeiros passos}{10}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Ramifica\IeC {\c c}\IeC {\~o}es ou Branchs}{14}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Criando um servidor remoto de vers\IeC {\~a}o}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Criando o server git}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Configurando o pc do desenvolvedor}{18}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Arduino}{18}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Adicionar Bibliotecas do Arduino}{18}{subsection.2.3.1}
+\contentsline {subsubsection}{Passos}{19}{section*.2}
+\contentsline {subsection}{\numberline {2.3.2}Biblioteca MensagensArduinoRobota}{20}{subsection.2.3.2}
+\contentsline {subsubsection}{Funcionalidades}{20}{section*.3}
+\contentsline {subsubsection}{Comandos}{20}{section*.4}
+\contentsline {subsubsection}{Exemplos de comandos aceitos}{21}{section*.5}
+\contentsline {subsubsection}{Bibliografia}{21}{section*.6}
+\contentsline {subsection}{\numberline {2.3.3}Visual C++ e Portas Seriais}{21}{subsection.2.3.3}
+\contentsline {subsubsection}{Exemplo Visual C++ $\Rightarrow $ Porta Serial}{22}{section*.7}
+\contentsline {section}{\numberline {2.4}Documenta\IeC {\c c}\IeC {\~a}o Doxygen e o Doxywizard}{22}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Uso}{22}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Doxywizard}{23}{subsection.2.4.2}
+\contentsline {subsubsection}{Wizard}{23}{section*.8}
+\contentsline {subsubsection}{Project}{23}{section*.9}
+\contentsline {subsubsection}{Modes}{24}{section*.10}
+\contentsline {subsubsection}{Output}{24}{section*.11}
+\contentsline {subsubsection}{Diagrams}{25}{section*.12}
+\contentsline {subsubsection}{Expert}{25}{section*.13}
+\contentsline {subsubsection}{Run}{26}{section*.14}
+\contentsline {chapter}{\numberline {3}Hardware}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}B\'asico}{27}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Elementos b\'asicos}{27}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Aplica\IeC {\c c}\~oes em Rob\'otica M\'ovel}{28}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Placa de Circuito Impresso}{30}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}O que \'e?}{30}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Elementos b\'asicos}{30}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}CADs}{31}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Softwares}{31}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Proteus}{32}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Eagle}{33}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Altium Designer}{33}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Psim}{34}{subsection.3.3.4}
+\contentsline {chapter}{\numberline {4}Mec\^anica}{36}{chapter.4}
+\contentsline {chapter}{\numberline {5}Gerencial}{37}{chapter.5}
