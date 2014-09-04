@@ -1,0 +1,95 @@
+
+\begin{center}
+\textbf{Autodesk Inventor}
+\end{center}
+	\textbf{1 - Softwares de CAD}
+\textbf{1.1 - Introdução}
+\\
+
+	O Design mec\^anico atrav\'es de softwares CAD ({\it Computer Aided Design}, ou Design Auxiliado por Computador) \'e de suma import\^ancia ao projetar qualquer tipo de rob\^o, pois tendo em vista que toda a eletr\^onica deste ser\'a montada sobre a estrutura f\'isica do aut\^omato, \'e indispens\'avel que esta atenda todos os requisitos previamente decididos.
+	
+	Os softwares de CAD podem ser: Param\'etricos ou ???????. Para o nosso propósito, o mais interessante é o param\'trico, pois permite uma gest\~ao precisa das depend\^encias entre os par\^ametros das peças presentes no modelo.
+	
+	Os dois softwares mais populares neste segmento s\~ao o "SolidWorks", da Dassault Systèmes, e o "Autodesk Inventor", da pr\'opria Autodesk. Ambos possuem interface e enfoque parecidos, mas cada um com suas particularidades. A opç\~ao de escolha entre um ou outro cabe apenas ao usu\'ario, tendo em vista que s\~ao softwares igualmente poderosos.
+	Ainda, e\' digno de menç\~ao o "Solid Edge", da Siemens AG.
+	\\
+	\\
+	\textbf{1.2 - CAD Param\'etrico}
+	\\
+	
+	Os softwares de CAD  param\'etrico nos possibilitam, atrav\'es das suas {\it features}, transformar um desenho 2D em um modelo 3D. Isso acontece desenhando, incialmente, um esboço da superf\'icie principal do modelo. Com este pronto, podemos adicionar a terceira dimens\~ao do modelo atrav\'es de recursos como a Extrusão, que d\'a profundidade ao esboço ou a Revoluç\~ao, que revoluciona o esboço em torno de uma das suas laterais, criando uma esp'ecie de cilindro.
+
+
+	\begin{figure}[h]
+	\includegraphics[scale=0.3]{./include/chapters/sections/mec/section1/imgs/box.png}
+	\caption{Superf\'icie Revolucionada}
+	\label{Rev}
+	\end{figure}
+
+	\begin{figure}[h]
+	\includegraphics[scale=0.3]{./include/chapters/sections/mec/section1//imgs/rev.png}
+	\caption{Superf\'icie Extrudada}
+	\label{Ext}
+	\end{figure}
+\newpage
+\textbf{1.2 - Autodesk Inventor}
+\\
+
+\textbf{1.2.1 - Intro}
+\\
+
+	O Autodesk Inventor teve a sua primeira edição lançada em 1999 e desde então tem se tornado uma das referências no segmento de CADs 3D. As suas funções são inúmeras, desde o desenvolvimento de modelos em 3D, até o teste de materiais e construção de apresentações.
+\\
+\textbf{1.2.1 - Primeiras impressões - Autodesk Inventor Professional 2014}
+\\
+A interface do Autodesk Inventor e\' muito semelhante  à dos seus concorrentes, com atalhos para as principais funç\~oes e recursos do software em uma barra superior, devidamente organizada entre r\'otulos. Um dos pontos positivos em relaç\~ao aos outros s\~ao os seus v\'arios tutoriais, que tornam o  software mais {\it user-friendly}, principalmente para "marinheiros de primeira viagem" no mundo do CAD.
+\\	
+
+\textbf{1.2.2.1 - Criando um projeto}
+\\
+	Ao clicar no i\'cone "New", na tela inicial do software, uma janela chamada  "Create New File" é aberta. Nesta, possu\'imos toda a gama de opç\~os de projetos que o Autodesk Inventor é capaz de desenvolver. E\' interessante frisar que e\' aqui que ser\'a escolhida a unidade de medida do projeto, seja ela Imperial ({\it English}), ou M\'etrica ({\it Metric}).
+	
+	\begin{figure}[h]
+	\includegraphics[scale=0.5]{./include/chapters/sections/mec/section1/imgs/first_wdw.jpg}
+	\caption{Janela "Create New File"}
+	\label{CreateNew}
+	\end{figure}
+\newpage
+	Na parte superior da tela seguinte, encontramos toda a sorte de opç\~oes e recursos implement\'aveis nos esboços e desenhos desenvolvidos no software.
+	\\
+	\begin{figure}[h]
+	\includegraphics[scale=0.3]{./include/chapters/sections/mec/section1/imgs/sec.jpg}
+	\caption{Primeira Área de Trabalho}
+	\label{Desktop}
+	\end{figure}
+	\\
+\textbf{1.2.1.2 - Criando o desenho em 2D (Desenho T\'ecnico}
+\\
+
+	Outro recurso muito interessante do Autodesk Inventor e\' a possibilidade de criar um desenho em 2D cotado em v\'arios \^angulos (Desenho T\'ecnico) \`a partir de um modelo 3D. Essa opç\~ao est\'a dispon\'ivel na acima citada janela "Create New", na seção "Drawing". 
+	\\
+	Ap\'os escolhido o padr\~ao da folha de desenho t\'ecnico, os passos seguintes são bem instintivos, auxiliados por uma caixa de opç\~oes.
+	
+	\begin{figure}[h]
+	\includegraphics[scale=0.5]{./include/chapters/sections/mec/section1/imgs/chassi.png}
+	\caption{Exemplo de "Drawing"}
+	\label{Chassi}
+	\end{figure}
+\newpage
+
+\textbf{1.2.1.3 - Vista Explodida}
+\\
+
+	Um recurso muito \'util do Autodesk Inventor e\' a possibilidade de criar a vista explodida de uma montagem (ou {\it Assembly} ), à partir de um modelo criado previamente através do software. Ainda, podemos criar uma animaç\~ao de montagem ou desmontagem do modelo com este mesmo recurso.
+	
+	Para utiliz\'a-lo, deve-se, novamente, ir à janela "\textit{Create new}" e ali escolher o Item "\textit{Presentation}".
+	
+	Tendo escolhido tamb\'em o padr\~ao da apresentaç\~ao, uma nova a\'rea de trabalho ser\'a aberta. Nesta, devemos escolher, inicialmente, a opç\~ao "\textit {Create View}"  e checar a opç\~ao " \textit {Manual} ", pois desejamos construir a vis\~ao explodida manualmente (e porque o modo autom\'atico é ca\'otico).
+	
+	Na tela seguinte, acontece a "explos\~ao" pr\'opriamente dita, onde ao selecionar uma peça da "\textit{Assembly} " clicamos em "\textit{Tweak Component}" e escolhemos a direç\~ao na qual desejamos levar a peça na vista explodida.
+	\\
+	\begin{figure}[h]
+	\includegraphics[scale=0.3]{./include/chapters/sections/mec/section1/imgs/exp.jpg}
+	\caption{"Construção da Vista Explodida"}
+	\label{Chassi}
+	\end{figure}

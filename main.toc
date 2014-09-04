@@ -46,4 +46,13 @@
 \contentsline {subsection}{\numberline {3.3.3}Altium Designer}{33}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Psim}{34}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4}Mec\^anica}{36}{chapter.4}
-\contentsline {chapter}{\numberline {5}Gerencial}{37}{chapter.5}
+\contentsline {section}{\numberline {4.1}Softwares de CAD}{36}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Introdu\IeC {\c c}\IeC {\~a}o}{36}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}CAD Param\'etrico}{36}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Autodesk Inventor}{38}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Intro}{38}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Primeiras impress\IeC {\~o}es - Autodesk Inventor Professional 2014}{38}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Criando um projeto}{38}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Criando o desenho em 2D (Desenho T\'ecnico)}{39}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Vista Explodida}{40}{subsection.4.2.5}
+\contentsline {chapter}{\numberline {5}Gerencial}{42}{chapter.5}
